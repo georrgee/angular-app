@@ -14,3 +14,14 @@
     export class TurnGreenDirective({
         
     })
+
+36. ngIf
+1. Syntax = *ngIf
+2. structural directive
+    - changes the structure of the Dom if adds or it doesnt adds
+
+38. Styling Elements dynamically with ngStyle
+
+* Unlike structural directives, attribute directives don't add or remove
+elements. They only change the element they were placed on
+
