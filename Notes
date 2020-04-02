@@ -1,0 +1,16 @@
+35. Understanding Directives
+1. Directives are instructions in the DOM!
+    - Components are such instructions 
+    - Selector: telling angular we are giving it instructors
+    - Components are directives with a template
+    
+    For example:
+    <p appTurnGreen> Green Color <\p>
+
+    @Directive({
+        Selector: '[appTurnGreen]'
+    })
+
+    export class TurnGreenDirective({
+        
+    })
