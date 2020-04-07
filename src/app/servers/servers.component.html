@@ -12,11 +12,11 @@ class="form-control"
     <ng-template #noServer>
         <p>No server has been created yet!</p>
     </ng-template>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of servers"></app-server>
 
 
 <!-- <p>{{serverName}}</p> -->
+
 
 <!-- <input
 type="text"
